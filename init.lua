@@ -33,7 +33,7 @@ require "options"
 require "autocmds"
 
 require("lazy").setup(...)
-require("configs.dap")
+-- require("configs.dap")
 vim.schedule(function()
   require "mappings"
 end)
